@@ -1,8 +1,0 @@
-{
-  "name": "bookish-api",
-  "version": 2,
-  "alias": "",
-  "routes": [
-    { "src": "/search(.*)", "dest": "/search/index.js" }
-  ]
-}
