@@ -1,7 +1,7 @@
 {
   "name": "bookish-api",
   "version": 2,
-  "alias": "api.bookish.tech",
+  "alias": "",
   "builds": [
     { "src": "search/index.js", "use": "now-micro" }
   ],

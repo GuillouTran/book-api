@@ -6,7 +6,7 @@
   "author": "Tom MacWright",
   "license": "MIT",
   "scripts": {
-    "start": "micro",
+    "start": "micro search",
     "dev": "micro-dev -p 3111 search",
     "test": "tap */**.test.js"
   },
