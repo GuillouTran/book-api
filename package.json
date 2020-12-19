@@ -2,11 +2,11 @@
   "name": "bookish-api",
   "version": "1.0.0",
   "description": "api side of bookish",
-  "main": "index.js",
+  "main": "search/index.js",
   "author": "Tom MacWright",
   "license": "MIT",
   "scripts": {
-    "start": "micro search",
+    "start": "micro",
     "dev": "micro-dev -p 3111 search",
     "test": "tap */**.test.js"
   },
