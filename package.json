@@ -2,7 +2,7 @@
   "name": "bookish-api",
   "version": "1.0.0",
   "description": "api side of bookish",
-  "main": "search/index.js",
+  "main": "index.js",
   "author": "Tom MacWright",
   "license": "MIT",
   "scripts": {
