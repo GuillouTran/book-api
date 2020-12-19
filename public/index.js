@@ -1,8 +1,8 @@
 const { parse } = require("url");
 const { parse: parseQuery } = require("querystring");
-const { guess, collapseResults, methods } = require("api.js");
-const Context = require("context.js");
-const makeSources = require("api/index.js");
+const { guess, collapseResults, methods } = require("./api");
+const Context = require("./context");
+const makeSources = require("../api/index.js");
 
 async function handler(req) {
   const { pathname, query } = parse(req.url);
