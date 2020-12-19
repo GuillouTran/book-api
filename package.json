@@ -1,0 +1,25 @@
+{
+  "name": "bookish-api",
+  "version": "1.0.0",
+  "description": "api side of bookish",
+  "main": "index.js",
+  "author": "Tom MacWright",
+  "license": "MIT",
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev -p 3111 search",
+    "test": "tap */**.test.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "got": "^9.2.2",
+    "micro": "^9.3.3",
+    "micro-dev": "^3.0.0",
+    "micro-ratelimit": "^0.3.0",
+    "web-auto-extractor": "^1.0.17"
+  },
+  "devDependencies": {
+    "prettier": "^1.14.3",
+    "tap": "^12.0.1"
+  }
+}
