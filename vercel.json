@@ -2,9 +2,6 @@
   "name": "bookish-api",
   "version": 2,
   "alias": "",
-  "builds": [
-    { "src": "search/index.js", "use": "micro" }
-  ],
   "routes": [
     { "src": "/search(.*)", "dest": "/search/index.js" }
   ]
