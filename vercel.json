@@ -1,6 +1,6 @@
 {
  "builds": [
-    { "src": "public/*.js", "use": "@vercel/micro" }
+    { "src": "public/*.js", "use": "micro" }
   ],
   "routes": [
     { "src": "/index(.*)", "dest": "/public/index.js" }
