@@ -6,7 +6,7 @@
   "author": "Tom MacWright",
   "license": "MIT",
   "scripts": {
-    "start": "micro -l tcp://0.0.0.0:80",
+    "start": "micro -l tcp://0.0.0.0:$PORT",
     "dev": "micro-dev -p 3111 public"
   },
   "dependencies": {
