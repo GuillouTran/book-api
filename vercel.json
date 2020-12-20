@@ -1,0 +1,8 @@
+{
+ "builds": [
+    { "src": "search/index.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/search(.*)", "dest": "/search/index.js" }
+  ]
+}
