@@ -2,6 +2,6 @@
   "root": "public/",
   "clean_urls": true,
   "routes": [
-    { "src": "/public(.*)", "dest": "/search/index.js" }
+    { "src": "/public(.*)", "dest": "/public/index.js" }
   ]
 }
